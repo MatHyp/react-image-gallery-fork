@@ -31,7 +31,7 @@ const Item = React.memo((props) => {
     loading,
   } = {...defaultProps, ...props};
   const itemSrc = isFullscreen ? (fullscreen || original) : original;
-
+  console.log('test');
   return (
     <React.Fragment>
       <img
